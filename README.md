@@ -1,7 +1,7 @@
 # About Me
 
 _My name is Lauren Yoo, and I'm a junior in course 6-3 and CMS! [Here is a link to my real website.](https://laurenyoo.dev)
-It's nice to meet you.
+It's nice to meet you._
 
 Some fun facts about me:
 
