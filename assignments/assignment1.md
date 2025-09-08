@@ -27,19 +27,17 @@
 
 1. _For people with less reach/social presence, it may be difficult to find reliable collaborators online._ I didn't choose this because it's too difficult to solve this issue when it would require either a huge user base or massive-scale, infeasible data scraping that could also frighten people who are found through the service (data privacy).
 
-2. _Coordinating schedules with family and friends is often cumbersome, especially across different time zones and varying levels of busyness._ I think that if people are indifferent enough to not go out of their way to schedule meet-ups, then they probably wouldn't go out of their way to use this tool to automate schedule-coordinating anyways.
+2. **Daily Minigame: Friends living far away often struggle to make time to engage in fun activities together online due to different timezones, schedules, workloads, and interests. Most multiplayer games require multiple possibly cumbersome things, such as sitting down with a computer, connecting via call, or simply a large chunk of free time that can be hard to come by and even more difficult to coordinate.** I chose this problem because I enjoy playing games, but often find them too high-committment to regularly engage in them with friends. I think that creating a more low-commitment activity for friends may be a feasible solution, and could help bring friends together and create new, small memories together.
 
-3. **Staying Updated: It’s hard to share life updates with close friends and family in a way that feels both meaningful and manageable. Group chats can get noisy or can feel less serious or intimate, social media feels performative, and one-on-one check-ins can be draining to do for everyone if you’re busy. A tool that focuses on more lightweight updates could help people feel present in each other’s lives without requiring too much effort during busy times.** I chose this problem because many of my friends have talked about how it's tough to keep in touch with people outside of their closest circle; some of my friends choose to post to their Instagram "close friends" stories, but a number of my other friends find Instgram (and other large social networks) as a platform to be too distracting to keep downloaded in the first place. I think it'd be helpful to have an app that is dedicated solely to the purpose of updating and staying updated with friends.
+3. _It’s hard to share life updates with close friends and family in a way that feels both meaningful and manageable. Group chats can get noisy or can feel less serious or intimate, social media feels performative, and one-on-one check-ins can be draining to do for everyone if you’re busy._ I didn't choose this problem because of insufficient differentiation, friction, and indifference. If people are unwilling to go out of their way to talk to people, then they probably wouldn't want to start using a new platform for this purpose, especially as it would require everyone in their circle to also be on the platform.
 
 ### Event Organization
 
-_For reference, I'm a part of a hackathon organizing team that uses its own student-built projects along with Google Sheets for all of its logistics and tech._
-
-1. _Application reading webapp has clunky UI that is hard to both understand and read, and I think a portion of the process can be automated through AI (while still having everything read by humans)._ I think that this is not too hard of a fix / not too much of a departure from the system we currently use; it's mostly the UI that is an issue, so we don't necessarily need a full over-haul.
+1. **Application reading webapp: It's easy for internal team tools to have clunky UI that is hard to both understand and read, as a small number of people have to deal with using it. However, in the context of an application reading webapp used to pick out accepted participants for an event, I that think a portion of the process can be automated through AI (while still having everything read by humans). Improvements to this webapp would both lead to increased productivity amongst application readers, as well as fairer, more well-read decisions over who to accept.** I chose this problem because I think that the currently platform we're working with is very bare-bones, so I feel that there's a lot of room for improvement and helpful additions. It would also be easy for me to collect feedback from our userbase, as this would be meant to be used as an internal tool for our organization (and potentially organizers of other hackathons or similar events).
 
 2. _For volunteer coordination, much of the process (communication, signups, questions/requests for help) can be automated._ I think there often isn't as much information that needs to be recorded for volunteers, so perhaps most organizations are already satified with whatever system they currently have in place and would be unwilling to switch to something new that they're less familiar with.
 
-3. **Coordinating Complex Event Schedules: As an event organizer, it's hard to keep track of multiple events happening at the same time when we need to list out a lot of information for each event (name, location, time, person in change, people helping out, etc.) and much of the information is dynamic/subject to change due to people moving around, things getting delayed, etc. Additionally, when many things are happening at once, it's too messy to use a tool like Google Calendar, but also can be visually overwhelming and confusing if put on a spredsheet instead, as we do currently. This means that each person must constantly check the spreadsheet constantly throughout the event days.** I chose this problem because how smoothly our event runs on the day-of is very important to me. I think it'd really help our small community to have a unified platform that keeps us all updated on what is going on and what has changed, as our currently system of using Google Sheets does the bare minimum and can be hard to read and understand, especially for newly-recruited organizers.
+3. _It's hard to keep track of multiple events happening at the same time when we need to list out a lot of information for each event (name, location, time, person in change, people helping out, etc.) and much of the information is dynamic/subject to change due to people moving around, things getting delayed, etc._ I didn't choose this because of insufficient differentiation and friction; it'd be difficult to come up with a system that is sufficiently different from just using a spreadsheet, and small improvements may not be enough to convince people to migrate.
 
 <!-- Problem 1 -->
 
@@ -55,62 +53,79 @@ _As a kid deeply involved in making high-committment art projects (animations) w
 
 ### Evidence
 
-1. [Self-organized communities for youth online creative production](https://web.media.mit.edu/~mres/NSF/CDI/ICCE-kafai-1.pdf) provide a solid foundation for social skills needed in the future as adults.
+1. [Self-organized communities for youth online creative production](https://web.media.mit.edu/~mres/NSF/CDI/ICCE-kafai-1.pdf) provide a solid foundation for social skills such as agency. Scratch (Comparable) is an example of this, with a culture of having agency over choosing roles, freely deciding on what decisions would be most effective, and providing and receiving feedback; however, Scratch is centered on programming only, and it had its flaws: for instance, work was often divided up unevenly, and kids struggled to find a way to manage multiple parallel versions of the project since they were all working on it at the same time.
 2. [Coordination costs](https://www.cmu.edu/teaching/designteach/design/instructionalstrategies/groupprojects/challenges.html) can significantly delay project progress.
-3. [Users have said that Discord is good for small-scale collaboration](https://www.reddit.com/r/RPGdesign/comments/1at75cn/using_discord_to_collaborate_and_develop/), but not necessarily for larger projects. Discord threads are hard to work with.
-4. For reasons such as privacy, security, and possible deletion of files, [Discord is not an ideal space for file storage](https://www.youtube.com/watch?v=fIaECsmVqLw&t=2s).
-5. [Discord has file attachment size limits](https://support.discord.com/hc/en-us/articles/25444343291031-File-Attachments-FAQ).
+3. [Users have said that Discord (Comparable) is good for small-scale collaboration](https://www.reddit.com/r/RPGdesign/comments/1at75cn/using_discord_to_collaborate_and_develop/), but not necessarily for larger projects. [Discord threads](https://support.discord.com/hc/en-us/community/posts/4405118204183-Threads-are-on-the-verge-of-greatness-Instead-they-are-hellish-and-clunky-There-are-simple-fixes-let-s-discuss-them) have also received criticism for being hard to use, so it may be difficult to keep elements of the project separate without creating a large number of channels.
+4. For reasons such as privacy, security, and possible deletion of files, [Discord is not an ideal space for file storage](https://www.youtube.com/watch?v=fIaECsmVqLw&t=2s). It also [has file attachment size limits](https://support.discord.com/hc/en-us/articles/25444343291031-File-Attachments-FAQ), which makes it unsuitable for projects with larger assets and files.
+5. [Structured and organized collaboration systems](https://www.edsurge.com/news/2019-10-17-group-work-is-hard-for-quiet-kids-structured-collaboration-cuts-through-the-chaos) emphasizing clear roles and tasks can help quieter kids shine.
+6. Against: [Even with privacy and safety rules in place, Discord struggles to deal with harassment and cyberbullying issues](https://youthfirstinc.org/discords-growing-impact-on-teen-communication-and-mental-health/). How can this be avoided with this platform without completely eliminating communication?
+7. Against: [The Children's Online Privacy Protection Rule ("COPPA")](https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa) imposes strong requirements and restrictions on websites made for children under 13 years of age, which makes this project logistically challenging to implement in real life.
+8. Apps such as [Amino](https://play.google.com/store/apps/details?hl=en_US&id=com.narvii.amino.master) demonstrate a high demand for interest-based social groups among children, so building a centralized platform for the organization of projects could partially fulfill that desire for belonging in a community of like-minded children.
+9. [Google Workspace](https://support.google.com/a/users/answer/9283050?hl=en) is helpful for project management, but may not be fitting for children who may seek a more playful and communnity-based alternative rather than using services that were built generally for more [professional collaboration between teams](https://jumpcloud.com/blog/what-is-google-workspace) of adults who are already acquainted with each other through the organization they work for. Also, most importantly, Google Workspace is a paid service per user, and kids often don't have access to their own spending money.
+10. [Community collaboration provides youths with opportunities that help them grow as people and empower them to become responsible, confident, and capable young adults](https://www.youtheducationdevelopment.com/post/uniting-for-a-cause-how-community-collaboration-positively-affects-the-youth)
 
 ### Features
 
 1. Adding collaborators: Have a way for users to invite their collaborators to join the space, with verification so that strangers can't automatically join.
 2. Draft sharing: An intuitive and engaging way for users to share their progress and request/receive feedback from others, perhaps with fun reaction stickers or other ways to make encouraging each other more fun and rewarding.
 3. Project main page: Has an overview of the project, how far along the users are, what has been done and what hasn't, and perhaps an automatically put-together video/picture/text/etc. of all drafts in whatever stages they're currently in.
+4. General design of the platform can be gamified to add playfulness attractive to youths.
 
 <!-- Problem 2 -->
 
-## Staying Updated
+## Daily Minigame
 
-_It’s hard to share life updates with close friends and family in a way that feels both meaningful and manageable. Group chats can get noisy or can feel less serious or intimate, social media feels performative, and one-on-one check-ins can be draining to do for everyone if you’re busy. A tool that focuses on more lightweight updates could help people feel present in each other’s lives without requiring too much effort during busy times._
+_Friends living far away often struggle to make time to engage in fun activities together online due to different timezones, schedules, workloads, and interests. Most multiplayer games require multiple possibly cumbersome things, such as sitting down with a computer, connecting via call, or simply a large chunk of free time that can be hard to come by and even more difficult to coordinate._
 
 ### Stakeholders
 
-1. Busy people: People who don't have time to share life updated with everyone they want to keep in touch with. Important because this is the intended audience.
-2. Less busy people: People who do have time to share life updates with everyone they want to keep in touch with. Important because: would people who actually have time to check in with many of their friends frequently still use this platform?
-3. Core circle of user: The people the user wants to keep up with. Important because if the format of what information is shared and how is not up to their standards/they don't find it helpful or fun, they may quit using it or not use it in the first place.
-4. Less close friends/acquaintances: People who may be friendly with the user but not close enough to be connected on this platform. Relevant beacuse visibility of user's presence and other connections may lead to these less close friends questioning their relationship.
+1. Gamers: Users who already play games. Important because this activity should feel engaging enough to still play despite having other games they already engage in regularly. Otherwise, it's possible that not everyone in a friend group may engage due to already finding fulfillment through other activities.
+2. Non-Gamers: Users who do not regularly play games. Important because the game should be short, simple, and classic enough for the enjoyment of people who (1) either don't have time to play games or (2) simply don't usually feel any strong urge to play games.
+3. Core circle of user: The people the user wants to keep up with and engage in games with. Important because if the format of the activity is not up to their standards/they don't find it fun or helpful to stay in touch with people, they may quit using it or not use it in the first place.
+4. Parents/Guardians/Teachers: People who may be impacted due to their children participating in these minigames/activities. If the form of the game is too long, complicated, or can be played repeatedly for long intervals of time, then it may disrupt young students' schedules and focus on work and education.
 
 ### Evidence
 
-1. It may be good to have a separate platform for just this purpose outside of the usual social networks such as Instagram, as these platforms [tend to be addictive](https://www.jeffersonhealth.org/your-health/living-well/the-addictiveness-of-social-media-how-teens-get-hooked).
-2. An additional downside of more generalized social networking platforms such as Instagram is that [it could instead harm relationships and create more distance](https://ultrawinning.medium.com/people-say-they-use-social-media-to-stay-in-touch-with-friends-family-i-call-bullshit-4e1f954341dc).
-3. [People are attracted to more authentic social media experiences](https://www.npr.org/2022/06/02/1102728947/why-teens-are-choosing-the-app-bereal-over-instagram).
-4. Many people create ["fake" accounts](https://www.sciencedirect.com/science/article/abs/pii/S1471015323000776) limited to a smaller group of friends due to discomfort with posting to a larger adueience
+1.
+2.
+3. Usage of [BeReal](https://journals.sagepub.com/doi/10.1177/14614448251317689?int.sj-full-text.similar-articles.5) (Comparable), a mobile app with a focus on authentic sharing of in-the-moment pictures only once a day, is linked to higher friendship and life satisfaction, and reduced Fear of Missing Out (FOMO). Engaging with friends in a quick and low-stakes way as with BeReal could have a positive influence on users.
+4. Consideration: Keep accessibility in mind; keep it a short activity for the sake of solving the problem, but also consider making it so that timing can be extended or perhaps disabled for [accessibility purposes](https://www.w3.org/TR/WCAG22/?utm_source=chatgpt.com#timing-adjustable).
+5. [Casually reaching out to friends can mean a lot more to them than we realize](https://www.nytimes.com/2022/07/11/well/family/check-in-text-friendship.html). Perhaps a short message or invite to engage a friend in the game once in a while can have the same effect, telling people that their friends still think about them.
+6. Against/Consideration: [Notifications are distracting and have negative consequences on productivity](https://pmc.ncbi.nlm.nih.gov/articles/PMC10244611), so the timing and frequency should be minimal as to prevent users from feeling overwhelmbed by their friends.
+7. Against/Comparable: Snapchat (Comparable) [streaks have been associated with Fear of Missing Out (FOMO) as well as problematic cellphone usage amongst adolescents](https://repository.uantwerpen.be/docman/irua/944247motoMa8). Perhaps regular participation should be more low-stakes.
+8. Wordle’s “once-a-day” ritual (Comparable) limits play to a quick daily puzzle, which creates a low-friction activity that is also shareable with others, since the puzzle is the same for everyone.
 
 ### Features
 
-1. Daily Digest/Summary: Since the platform is intended to help busy people, checking this platform itself may still be difficult, and they might miss some updates. It might help to consolidate information into one quick and easy-to-view summary.
-2. Reminders of Inactivity in Relationships: Send a gentle reminder to a user if they haven't interacted (like, comment, etc.) with a friend's update in a while (a month, maybe).
-3. Sharing Random Moments: Inspired by Bereal, perhaps a user could send out notifications to some or all of their circle that encourages their friends to share what they're currently doing.
+1.
+2. Reminders of Inactivity in Relationships: Send a gentle reminder to a user if they haven't played with a friend in a while (a month, maybe).
 
 <!-- Problem 3 -->
 
-## Coordinating Complex Event Schedules
+## Application Reading Webapp
 
-_As an event organizer, it's hard to keep track of multiple events happening at the same time when we need to list out a lot of information for each event (name, location, time, person in change, people helping out, etc.) and much of the information is dynamic/subject to change due to people moving around, things getting delayed, etc. Additionally, when many things are happening at once, it's too messy to use a tool like Google Calendar, but also can be visually overwhelming and confusing if put on a spredsheet instead, as we do currently. This means that each person must constantly check the spreadsheet constantly throughout the event days._
+_[The event organizing team that I'm involved in]'s current platform has clunky UI that is hard to both understand and read, and I think a portion of the process can be automated through AI (while still having everything read by humans). Improvements to this webapp would both lead to increased productivity amongst application readers, as well as fairer, more well-read decisions over who to accept._
 
 ### Stakeholders
 
-1. Organizers in charge of logistics: The people behind scheduling and editing events. Important because they need a means through which they can easily and intuitively access controls to add and edit events in real-time during a hectic event day.
-2. Other organizers: People in the organizing team but less involved in the logistics. Important because they know less about the schedule than those in charge of logistics, so it needs to be very clear to them what they need to do at what time and where.
-3. Event participants: The people attending the event being organized. Important because how the event schedule is organized heavily impacts their experience.
+1.
+2. Event participants and applicants: The people attending and wishing to attend the event being organized. Important because how thoroughly applications are read by organizers using the application reading webapp impacts who is let in. The smoother the application reading experience is, the fairer decisions will be, and this would lead to less applicants feeling wronged by the decision they receive.
+3. Other organizers: Organizers of other hackathons or other application-only events. Other hackathons have used our software in the past for their tech, so it's possible that if a revamped application reading software works especially well for us, other organizers may want to use it as well.
 
 ### Evidence
 
-1. Google Sheets is limited in functionality for event planning due to being built for [general purpose data storage](https://en.wikipedia.org/wiki/Google_Sheets) over the specific purpose of event planning.
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
 
 ### Features
 
-1. Spreadsheet Import: A way to import spreadsheet data into the website so that the basic information can be compiled and imported quickly.
-2. Synced Overall and Personal Calendars: A button that automatically saves the events that organizers are signed up to help with to their own calendar, so they can view their personal schedule in isolation for easier readability. This calendar can be synced to the main calendar, so if changes are made or people get reassigned to different events, it's reflected in both calendars immediately.
-3. Event Editing: A way for a select few organizers with authorization to easily go in and add, remove, and edit events whenever changes are made to the schedule.
+1. Parse all applications with AI in order to flag applications that may be ineligible. These flagged applications can then be human-checked before they are disqualified. Could also parse for key words or phrases, e.g. for frameworks, languages, libraries, etc. as well as positive team player traits and highlight them for quicker reading. However, the latter may have the unintended consequence of leading to rushed application reading.
+2.
