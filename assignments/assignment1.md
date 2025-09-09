@@ -86,19 +86,22 @@ _Friends living far away often struggle to make time to engage in fun activities
 
 ### Evidence
 
-1.
-2.
+1. The popularity of [GamePigeon](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://apps.apple.com/us/app/gamepigeon/id1124197642&ved=2ahUKEwjKhK7A5MmPAxVdF1kFHUhWMAQQFnoECDEQAQ&usg=AOvVaw2RuvNbIIz5cEb5oEXQeIWC) demonstrates a demand for a way for users to easily engage in quick, easy-to-access minigames with friends.
+2. Though GamePigeon is highly accessible for many users, [it has its cons](https://scnstargazer.org/6237/opinion/the-pros-and-cons-of-game-pigeon/). It's only available on IOS, does not get updated frequently, and can be distracting and addictive, as turns are sent via iMessage as texts.
 3. Usage of [BeReal](https://journals.sagepub.com/doi/10.1177/14614448251317689?int.sj-full-text.similar-articles.5) (Comparable), a mobile app with a focus on authentic sharing of in-the-moment pictures only once a day, is linked to higher friendship and life satisfaction, and reduced Fear of Missing Out (FOMO). Engaging with friends in a quick and low-stakes way as with BeReal could have a positive influence on users.
 4. Consideration: Keep accessibility in mind; keep it a short activity for the sake of solving the problem, but also consider making it so that timing can be extended or perhaps disabled for [accessibility purposes](https://www.w3.org/TR/WCAG22/?utm_source=chatgpt.com#timing-adjustable).
 5. [Casually reaching out to friends can mean a lot more to them than we realize](https://www.nytimes.com/2022/07/11/well/family/check-in-text-friendship.html). Perhaps a short message or invite to engage a friend in the game once in a while can have the same effect, telling people that their friends still think about them.
 6. Against/Consideration: [Notifications are distracting and have negative consequences on productivity](https://pmc.ncbi.nlm.nih.gov/articles/PMC10244611), so the timing and frequency should be minimal as to prevent users from feeling overwhelmbed by their friends.
 7. Against/Comparable: Snapchat (Comparable) [streaks have been associated with Fear of Missing Out (FOMO) as well as problematic cellphone usage amongst adolescents](https://repository.uantwerpen.be/docman/irua/944247motoMa8). Perhaps regular participation should be more low-stakes.
-8. Wordle’s “once-a-day” ritual (Comparable) limits play to a quick daily puzzle, which creates a low-friction activity that is also shareable with others, since the puzzle is the same for everyone.
+8. [Wordle’s “once-a-day” ritual](https://www.newyorker.com/culture/infinite-scroll/why-you-cant-resist-wordle) (Comparable) limits play to a quick daily puzzle, which creates a low-friction activity that is also shareable with others, since the puzzle is the same for everyone.
+9. [TriviaCrack](https://www.reddit.com/r/TriviaCrack/comments/8kbko5/did_trivia_crack_became_worse/) (Comparable) was popular for some time but suffered user dissatisfaction with the repetitive content. Gameplay that is more creativity-oriented may remedy this.
+10. [Gartic Phone](https://garticphone.com) (Comparable) connects friends through repetitive but highly creative gameplay. However, it requires completely synchronous game-play and joining a Discord call with friends, whih adds barriers, making it not as suitable for quick, easily accesible gameplay.
 
 ### Features
 
-1.
-2. Reminders of Inactivity in Relationships: Send a gentle reminder to a user if they haven't played with a friend in a while (a month, maybe).
+1. Asynchronous gameplay for friends to engage in, passing "turns" to each other as in GamePigeon, but without the platform barrier, and perhaps a more creative activity less focused on winning and more focused on collaboration, like Gartic Phone.
+2. Limit of one game per day to prevent over-use and distraction. Let each user send their daily game to a chosen group of friends to play together.
+3. Reminders of Inactivity in Relationships: Send a gentle reminder to a user if they haven't played with a friend in a while (a month, maybe).
 
 <!-- Problem 3 -->
 
@@ -108,24 +111,26 @@ _[The event organizing team that I'm involved in]'s current platform has clunky 
 
 ### Stakeholders
 
-1.
+1. Application readers: The people reading and rating applications to participate in an event. This problem impacts them because they are the main users directly impacted by the problem; a good solution would make the application reading process both quicker and more engaging, so that reading quality is maintained while making the task easier to get through.
 2. Event participants and applicants: The people attending and wishing to attend the event being organized. Important because how thoroughly applications are read by organizers using the application reading webapp impacts who is let in. The smoother the application reading experience is, the fairer decisions will be, and this would lead to less applicants feeling wronged by the decision they receive.
 3. Other organizers: Organizers of other hackathons or other application-only events. Other hackathons have used our software in the past for their tech, so it's possible that if a revamped application reading software works especially well for us, other organizers may want to use it as well.
 
 ### Evidence
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
+1. [Training for application readers can measurably increase reliability of their ratings](https://pmc.ncbi.nlm.nih.gov/articles/PMC4468126), and building an application reading webapp with training built-in can ensure that fair judgments are made even if the pool of application readers is large and diverse in opinions and experience.
+2. [Blind reviews](https://arxiv.org/abs/2101.02701) of applications noticeably help reduce bias. It's important to build an application reading tool that is as unbiased as possible, as applicants rely on readers to make fair judgements. In particular, it may help to censor any mentions of the school a student may be attending, as [prestige bias is a very real issue](https://pmc.ncbi.nlm.nih.gov/articles/PMC7811873).
+3. [Iterating on and redesigning UI can lead to substantial improvements in usability](https://www.nngroup.com/articles/iterative-design). Reading though applications is tough on people currently, and bad UI could be contributing to the large amounts of time spent on making decisions for applicants.
+4. [Slate](https://technolutions.com/admissions) is used by many schools to organize and process university applications. However, it's clear that this platform is designed for a much larger scale. Not only are the tools far more complex than necessary to solve this problem, but it also offers licenses starting at $30,000 per year, making it completely inaccessible for smaller organizations. [ApplyWeb](https://collegenet.com/admissions), a similar platform, seems to have the same issues.
+5. [Application reviewers face significant decision fatigue](https://blog.kiratalent.com/how-fatigue-affects-your-admissions-decisions/), especially as more is added to the decision making process. Tired reviewers will rely more heavily on shortcuts, such as scanning for numbers and statistics over fully and carefully looking over an application. It's important that the reviewing process is as seamless as possible.
+6. An [internal system](https://blog.kiratalent.com/inside-holistic-admissions-with-haas-school-of-business/) in place with more intrinsic and extrinsic motivators may help prevent reviewers from developing decision fatigue and burnout. Without motivators and reminders of why the job is rewarding, reviewers can quickly develop burnout.
+7. Against: [LLMs show gender, race, and intersectional bias in automated resume-screening](https://www.brookings.edu/articles/gender-race-and-intersectional-bias-in-ai-resume-screening-via-language-model-retrieval), so it may not be a good idea to automate too much of the process. Parsing of applications with AI should generally be kept to a minimum.
+8. Even for the far longer, more detailed, and more holistic process of reading college applications, [admissions officers often scan through an application in 8 minutes or less](https://www.ivycoach.com/the-ivy-coach-blog/college-admissions/8-minute-rule-college-admissions/). A large volume of applications makes the task of reviewing applications fundamentally difficult and repetitive.
+9. Depending on the context, [gamifying a repetitive process](https://pmc.ncbi.nlm.nih.gov/articles/PMC9220799) can increase users' enjoyment on the platform. Increasing intrinsic motivation in particular gives users autonomy.
+10. Against: The [Overjustification Effect](https://en.wikipedia.org/wiki/Overjustification_effect?utm_source) states that introducing rewards for extrinsic motivation can often backfire in the long-term; depending now how it is designed, it may not always be ideal to gamify this process.
 
 ### Features
 
 1. Parse all applications with AI in order to flag applications that may be ineligible. These flagged applications can then be human-checked before they are disqualified. Could also parse for key words or phrases, e.g. for frameworks, languages, libraries, etc. as well as positive team player traits and highlight them for quicker reading. However, the latter may have the unintended consequence of leading to rushed application reading.
-2.
+2. Built-in reader training module to better ensure that readers' ratings are standardized.
+3. Reader progress dashboard with achievements and other gamified elements and intrinsic motivation prompts that show up sporadically.
+4. Intuitive csv export system for a ranked list of applicants by ratings
