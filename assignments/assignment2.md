@@ -78,9 +78,15 @@ state
         a scaleMin Number
         a scaleMax Number
 actions
-    createEvent (caller: User, name: String, requiredReadsPerApp: Number, rubric: set of RubricDimensions): (event: Events)
+    createEvent (caller: User, name: String, requiredReadsPerApp: Number, rubric: set of RubricDimensions): (event: Event)
         requires: caller is the Admin
         effect: add a new Event and set its active flag to true
+    activateEvent (caller: User, name: String)
+        requires: caller is the admin, event with name is not active
+        effect: sets the event's active flag to true
+    inactivateEvent (caller: User, name: String)
+        requires: caller is the Admin, event with name is active
+        effect: sets the event's active flag to false
     updateEventConfig (caller: User, event: Event, requiredReadsPerApp: Number, rubric: set of RubricDimensions)
         requires: caller is the Admin and event is an active event
         effect: update provided fields
@@ -90,12 +96,27 @@ actions
     removeReader (caller: User, event: Event, user: User)
         requires: caller is the Admin, event is an active event and user is in the event's Readers
         effect: remove user from event.Readers and add user to event.unverifiedUsers
+    register (name: String, email: String, password: String, event: Event) : (user: User)
+        requires: no user with the same email registered under the same event, password at least 8 characters long
+        effect: creates a new user to be added to the unverifiedUsers set for the provided event
+    login (email: String, password: String, event: Event) : (user: User)
+        requires: password provided matches with the password associated with the User with email email under the provided event
+        effect: successfully authenticate user
+    incrementReadCount (user: User)
+        requires: user's event is an active event
+        effect: user.readCount += 1
+    incrementSkipCount (user: User)
+        requires: user's event is an active event
+        effect: user.skipCount += 1
+    addToTotalTime (user: User, seconds: Number)
+        requires: user's event is an active event
+        effect: user.totalTime += seconds
 ```
 
-### Applications
+### ApplicationAssignments
 
 ```
-concept Applications
+concept ApplicationAssignments
 purpose Store application data (including read-counts) and assign them one at a time to users to read, allowing skips.
 principle The admin can add applications to an active event. This should initialize all applications in the database to
     have 0 reads. Each reader is assigned one application to read at a time. Applications are assigned prioritizing
@@ -120,9 +141,9 @@ actions
         requires: adder is the Admin and event is an active event
         effect: create applications for each applicantID associated with an applicantYear, a set of questions and
         answers from the application, and readsCompleted = 0
-    getNextAssignment (user: User, event: Event, currentTime: DateTime): (assignment: CurrentAssignments)
+    getNextAssignment (user: User, event: Event, startTime: DateTime): (assignment: CurrentAssignments)
         requires: event is the active event, and user is a reader for event
-        effect: create a CurrentAssignment for this user with startTime as currentTime, with an application
+        effect: create a CurrentAssignment for this user with startTime, with an application
             that does not have user in readers set
 ```
 
@@ -166,9 +187,37 @@ actions
         effect: add comment with provided details to the set of comments
 ```
 
+### Syncs
+
+```
+sync UpdateStatsOnSubmit
+when
+    ApplicationAssignments.getNextAssignment (user: User, event: Event, startTime: DateTime): (assignment: CurrentAssignments)
+    ReviewRecords.submitReview (reader: User, application, currentTime: DateTime)
+then
+    EventDirectory.incrementReadCount (user)
+    EventDirectory.addToTotalTime (user, seconds: (currentTime - startTime) as a Number)
+```
+
+```
+sync CountRedFlagAsRead
+when
+    ReviewRecords.addRedFlag (author: User, application)
+then
+    ApplicationAssignments.getNextAssignment (user, application.event, time): (assignment : CurrentAssignments)
+```
+
+```
+sync SkipRead
+when
+    Request.SkipRead (user, application, time)
+then
+    ApplicationAssignments.getNextAssignment (user, application.event, time): (assignment : CurrentAssignments)
+```
+
 ## UI Sketches
 
-![Appreader UI Sketches](/assets/assignment2/appreader_ui_sketches.png)
+![AppReader UI Sketches](/assets/assignment2/appreader_ui_sketches.png)
 
 ## User Journey
 
