@@ -18,3 +18,5 @@ Some fun facts about me:
 [PSet 1](assignments/pset1.md)
 
 [PSet 2](assignments/pset2.md)
+
+[Assignment 2](assignments/assignment2.md)
