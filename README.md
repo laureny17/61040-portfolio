@@ -20,3 +20,5 @@ Some fun facts about me:
 [PSet 2](assignments/pset2.md)
 
 [Assignment 2](assignments/assignment2.md)
+
+[Assignment 3](assignments/assignment3.md)
