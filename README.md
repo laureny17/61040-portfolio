@@ -22,3 +22,5 @@ Some fun facts about me:
 [Assignment 2](assignments/assignment2.md)
 
 [Assignment 3](assignments/assignment3.md)
+
+[Assignment 4a](assignments/assignment 4a.md)
