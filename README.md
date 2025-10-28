@@ -24,3 +24,5 @@ Some fun facts about me:
 [Assignment 3](assignments/assignment3.md)
 
 [Assignment 4a](assignments/assignment4a.md)
+
+[Assignment 4b](assignments/assignment4b.md)

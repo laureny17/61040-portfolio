@@ -6,9 +6,9 @@
 
 ## Visual Design Study
 
-![Colors design study](assets/assignment4b/colors_slide.png)
+![Colors design study](../assets/assignment4b/colors_slide.png)
 
-![Fonts design study](assets/assignment4b/font_slide.png)
+![Fonts design study](../assets/assignment4b/font_slide.png)
 
 # User Journey
 
