@@ -1,6 +1,6 @@
 # Assignment 4a: Backend Concept Coding
 
-[New project repo](https://github.com/laureny17/app-reader)
+[New project repo](https://github.com/laureny17/appreader-backend)
 
 - design > concept folder has all the updated specs, per-concept design document, interesting moments, and the implementation and testing file used with Obsidian and context
 - design folder includes a file with general design notes
