@@ -17,3 +17,7 @@ After logging into the webapp as an admin, the user first lands on the admin das
 # Screen Recording
 
 [Screen recording](https://youtu.be/8S5ct5eXX0s)
+
+# Backend Updates
+
+[Backend updates doc](https://github.com/laureny17/appreader-backend/blob/main/design-updates.md)
